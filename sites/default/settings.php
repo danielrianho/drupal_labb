@@ -784,9 +784,9 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
 $databases['default']['default'] = array (
-  'database' => 'drupal_labb',
-  'username' => 'root',
-  'password' => 'root',
+  'database' => 'daniel_drupal',
+  'username' => 'daniel',
+  'password' => 'secret',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
